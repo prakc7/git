@@ -188,6 +188,20 @@ git commit -m "your-message"
 
 ---
 
+# Deleting branch
+
+```bash
+git branch -d branch_name
+```
+
+- If not merged in your local main branch:
+
+```bash
+git branch -D branch_name
+```
+
+---
+
 # MarkDown file
 Git-featured file with extension .md
 - Used to write documentations (More attractive text-files)
