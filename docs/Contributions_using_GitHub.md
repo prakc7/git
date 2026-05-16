@@ -47,7 +47,25 @@ git switch -
 # Deleting a Branch
 
 ```bash
-git branch -d branch-name
+git push origin --delete branch-name
+```
+
+- Then to delete locally:
+
+- But, at first you have to switch your branch:
+
+```bash
+git switch branch_name(to which you want to switch)
+```  
+
+```bash
+git branch -d branch_name
+```
+
+- If not merged into your local main branch yet:
+
+```bash
+git branch -D branch_name
 ```
 
 ---
